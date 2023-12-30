@@ -7,7 +7,6 @@
 
   display: flex;
   flex-direction: column;
-
   align-items: center;
 }
 
@@ -19,11 +18,23 @@
   height: 300px;
 }
 
+.back{
+  margin-top: 15px;
+}
+
+.content__title{
+  margin-top: 15px;
+}
+
 .content__description{
   margin-top: 15px;
 }
 
 .content__description > p{
   margin-top: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+
   color: rgb(198, 197, 197);
+
 }
